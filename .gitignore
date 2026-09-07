@@ -1,0 +1,33 @@
+# Frontend
+drop-frontend/node_modules/
+drop-frontend/dist/
+drop-frontend/.env
+drop-frontend/.env.*
+
+# Spring Boot
+drop-backend/target/
+drop-backend/.env
+drop-auth/target/
+drop-auth/.env
+drop-review/target/
+drop-review/.env
+
+# Java
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
